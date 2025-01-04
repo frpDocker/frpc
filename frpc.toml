@@ -2,6 +2,7 @@ serverAddr = "xxx.xxx.xxx.xxx"
 serverPort = 7000
 
 [[proxies]]
+# name
 name = ""
 type = "tcp"
 localIP = "127.0.0.1"
