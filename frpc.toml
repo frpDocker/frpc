@@ -1,0 +1,11 @@
+serverAddr = "xxx.xxx.xxx.xxx"
+serverPort = 7000
+
+[[proxies]]
+name = ""
+type = "tcp"
+localIP = "127.0.0.1"
+# localPort = 6001
+localPort = 
+# remotePort = 6001
+remotePort = 
