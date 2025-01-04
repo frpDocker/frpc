@@ -1,10 +1,10 @@
 version: '3.8'
-
 services:
   frpc:
-    image: snowdreamtech/frpc
+    image: snowdreamtech/frpc:latest
     container_name: frpc
     restart: always
-    network_mode: host
+    network_mode: host         
     volumes:
-      - ./frpc.toml:/etc/frp/frpc.toml
+      - ./frpc.toml:/etc/frp/frpc.toml:ro  
+    command: ["-c", "/etc/frp/frpc.toml"]
